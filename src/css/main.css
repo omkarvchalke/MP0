@@ -36,12 +36,13 @@ body {
   color: #ffffff;
 }
 
-
 .card .email {
   font-style: italic;
   font-size: 18px;
   margin: 0 0 14px;
   color: #ffffff;
+  text-align: center;
+  display: block;
 }
 
 
