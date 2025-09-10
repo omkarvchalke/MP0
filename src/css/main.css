@@ -1,55 +1,54 @@
 body {
-  background-color: white;
+  background-color: white;   
   font-family: Arial, sans-serif;
-  text-align: center;
   margin: 0;
-  padding: 20px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
 }
-
 
 .card {
-  background-color: #666666;
+  background-color: #666666;   
   color: white;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 24px;
-  text-align: center;    
-  border-radius: 4px;        
+  max-width: 700px;
+  padding: 40px 30px;
+  text-align: center;
+  border-radius: 4px;
 }
-
 
 .card img {
   width: 150px;
   height: 150px;
   border-radius: 0;
-  object-fit: cover;          
-  display: block;
-  margin: 0 auto 10px;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
-
 
 h1 {
   margin: 10px 0 6px;
-  font-size: 36px;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .email {
   font-style: italic;
-  margin: 4px 0 10px;
+  margin: 4px 0 12px;
 }
 
 a {
-  color: #d2a8ff;
+  color: #a77dff;           
   text-decoration: none;
   font-weight: bold;
-  display: inline-block;
-  margin: 8px 0 16px;
+  display: block;
+  margin: 8px 0 20px;
 }
 
-a:hover { text-decoration: underline; }
+a:hover {
+  text-decoration: underline;
+}
 
 .bio {
-  text-align: left;
+  text-align: left;         
   line-height: 1.6;
   margin: 12px 0;
   color: #f3f3f3;
