@@ -40,7 +40,7 @@ body {
   font-style: italic;
   font-size: 18px;
   margin: 6px 0 14px 32px;
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -60,7 +60,7 @@ body {
   text-align: left;
   font-size: 18px;
   line-height: 1.6;
-  color: rgba(255,255,255,0.92);
+  color: #ffffff;
 }
 
 @media (max-width: 540px) {
