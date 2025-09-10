@@ -1,0 +1,56 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+
+.card {
+  background-color: #666666;
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: center;    
+  border-radius: 4px;        
+}
+
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 0;
+  object-fit: cover;          
+  display: block;
+  margin: 0 auto 10px;
+}
+
+
+h1 {
+  margin: 10px 0 6px;
+  font-size: 36px;
+}
+
+.email {
+  font-style: italic;
+  margin: 4px 0 10px;
+}
+
+a {
+  color: #d2a8ff;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin: 8px 0 16px;
+}
+
+a:hover { text-decoration: underline; }
+
+.bio {
+  text-align: left;
+  line-height: 1.6;
+  margin: 12px 0;
+  color: #f3f3f3;
+}
