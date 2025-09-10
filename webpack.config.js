@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.[contenthash].js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'src'),
     clean: true,
     publicPath: '/'
   },
@@ -29,7 +29,7 @@ module.exports = {
     })
   ],
   devServer: {
-    static: path.join(__dirname, 'dist'),
+    static: path.join(__dirname, 'src'),
     port: 8080,
     open: true,
     hot: true
